@@ -8,30 +8,19 @@ body:
         Thanks for taking the time to report a bug. Please check the [FAQ](https://github.com/CptGummiball/QNet/wiki/FAQ) first. 
 
         If the problem only happens together with another mod's machine, please use the **Mod compatibility** template instead.
+        QNet for a Minecraft version that is not listed below? Please use the **[Version request](https://github.com/CptGummiball/QNet/issues/new?template=version_request.yml)** form.
 
   - type: dropdown
     id: minecraft
     attributes:
       label: Minecraft version
-      description: The QNet jar name contains the Minecraft version (or range) it is made for.
+      description: The QNet jar name contains the Minecraft version it is made for. Your version is not listed? Please use the [version request](https://github.com/CptGummiball/QNet/issues/new?template=version_request.yml) form instead.
       options:
         - "1.21.1"
-        - "1.21.2"
-        - "1.21.3"
-        - "1.21.4"
-        - "1.21.5"
-        - "1.21.6"
-        - "1.21.7"
-        - "1.21.8"
-        - "1.21.9"
-        - "1.21.10"
         - "1.21.11"
-        - "26.1"
-        - "26.1.1"
         - "26.1.2"
         - "26.2"
         - "26.3"
-        - "other (write it below)"
     validations:
       required: true
 
@@ -50,7 +39,7 @@ body:
     attributes:
       label: QNet jar and loader version
       description: The exact file name of the QNet jar, and the Fabric Loader + Fabric API or NeoForge version.
-      placeholder: "qnet-1.0.0+mc26.2-fabric.jar, Fabric Loader 0.19.5, Fabric API 0.161.0+26.2"
+      placeholder: "qnet-0.1.0+mc26.2-fabric.jar, Pipster 1.2.0, Fabric Loader 0.19.5, Fabric API 0.161.0+26.2"
     validations:
       required: true
 
