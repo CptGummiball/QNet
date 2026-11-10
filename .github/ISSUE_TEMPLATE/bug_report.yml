@@ -39,7 +39,7 @@ body:
     attributes:
       label: QNet jar and loader version
       description: The exact file name of the QNet jar, and the Fabric Loader + Fabric API or NeoForge version.
-      placeholder: "qnet-0.1.0+mc26.2-fabric.jar, Pipster 1.2.0, Fabric Loader 0.19.5, Fabric API 0.161.0+26.2"
+      placeholder: "qnet-1.0.0+mc26.2-fabric.jar, Pipster 1.2.0, Fabric Loader 0.19.5, Fabric API 0.161.0+26.2"
     validations:
       required: true
 

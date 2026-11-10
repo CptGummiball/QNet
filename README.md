@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0%20beta-FF4F9A?style=flat-square" alt="Version 0.1.0 beta">
+  <img src="https://img.shields.io/badge/version-1.0.0-FF4F9A?style=flat-square" alt="Version 1.0.0">
   <img src="https://img.shields.io/badge/Fabric-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-DBD0B4?style=flat-square" alt="Fabric 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/NeoForge-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-F16436?style=flat-square" alt="NeoForge 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/requires-Pipster%201.2.0%2B-FFB040?style=flat-square" alt="Requires Pipster 1.2.0 or newer">
@@ -30,13 +30,6 @@
 This repository holds the documentation, the [wiki](../../wiki), the [issue tracker](../../issues) and the
 [API for mod developers](api/README.md). The mod itself is downloaded from Modrinth or CurseForge. QNet is not open
 source; see [License](#license).
-
-<a id="beta"></a>
-<img src="images/headers/beta.png" alt="Beta Release" width="100%">
-
-**QNet 0.1.0 is the first public release and a beta.** Everything described here is built and tested (see
-[Version status](#version-status)), but it is new: please keep world backups, and report anything odd with your
-Minecraft version, loader and `logs/latest.log` ([Reporting bugs](#reporting-bugs)).
 
 <a id="what-is"></a>
 <img src="images/headers/what_is.png" alt="What QNet is" width="100%">
@@ -219,7 +212,7 @@ which version.
 first; the 1.21.11 build follows later as a separate release. Pipster itself supports 1.21.11 as usual.
 
 There is one file per Minecraft version and loader; the file name says which (for example
-`qnet-0.1.0+mc26.2-fabric.jar`). Every file was started as a client and as a dedicated server, passed all of its
+`qnet-1.0.0+mc26.2-fabric.jar`). Every file was started as a client and as a dedicated server, passed all of its
 automated game tests (over 250 on Fabric, over 210 on NeoForge) and ran together with each supported mod that exists for
 its version.
 
