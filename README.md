@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/NeoForge-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-F16436?style=flat-square" alt="NeoForge 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/requires-Pipster%201.2.0%2B-FFB040?style=flat-square" alt="Requires Pipster 1.2.0 or newer">
   <a href="https://modrinth.com/project/qnet"><img src="https://img.shields.io/modrinth/dt/qnet?style=flat-square&label=Modrinth&color=1BD96A" alt="Modrinth downloads"></a>
-  <a href="https://www.curseforge.com/minecraft/mc-mods/qnet"><img src="https://img.shields.io/curseforge/dt/1774539?style=flat-square&label=downloads&color=F16436" alt="CurseForge downloads"></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/qnet"><img src="https://img.shields.io/curseforge/dt/1774539?style=flat-square&label=CurseForge downloads&color=F16436" alt="CurseForge downloads"></a>
 
 </p>
 
