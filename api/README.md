@@ -12,3 +12,10 @@ QNet is optional for your mod, check that the mod `qnet` is loaded before touchi
 classes.
 
 The license (section 5) allows compiling against the API and publishing mods that use it.
+
+## What the API offers
+
+The full overview with examples is on the wiki page
+[For Mod Developers](https://github.com/CptGummiball/QNet/wiki/For-Mod-Developers). Since QNet 1.1.0 addons can also
+build their own multiblocks on QNet's validation, get machine windows drawn by QNet, use QNet's upgrade rules and
+telemetry, respect claims through QNet, and add pages to the in-game codex ([codex format 1](codex-format-1.md)).
