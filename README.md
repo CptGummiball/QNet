@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.1-FF4F9A?style=flat-square" alt="Version 1.0.1">
+  <img src="https://img.shields.io/badge/version-1.1.0-FF4F9A?style=flat-square" alt="Version 1.1.0">
   <img src="https://img.shields.io/badge/Fabric-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-DBD0B4?style=flat-square" alt="Fabric 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/NeoForge-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-F16436?style=flat-square" alt="NeoForge 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/requires-Pipster%201.2.0%2B-FFB040?style=flat-square" alt="Requires Pipster 1.2.0 or newer">
