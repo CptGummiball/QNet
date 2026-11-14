@@ -11,11 +11,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-FF4F9A?style=flat-square" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/version-1.0.1-FF4F9A?style=flat-square" alt="Version 1.0.1">
   <img src="https://img.shields.io/badge/Fabric-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-DBD0B4?style=flat-square" alt="Fabric 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/NeoForge-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-F16436?style=flat-square" alt="NeoForge 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/requires-Pipster%201.2.0%2B-FFB040?style=flat-square" alt="Requires Pipster 1.2.0 or newer">
   <a href="https://modrinth.com/project/qnet"><img src="https://img.shields.io/modrinth/dt/qnet?style=flat-square&label=Modrinth&color=1BD96A" alt="Modrinth downloads"></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/qnet"><img src="https://img.shields.io/curseforge/dt/1774539?style=flat-square&label=downloads&color=F16436" alt="CurseForge downloads"></a>
+
 </p>
 
 <p align="center">
@@ -212,7 +214,7 @@ which version.
 first; the 1.21.11 build follows later as a separate release. Pipster itself supports 1.21.11 as usual.
 
 There is one file per Minecraft version and loader; the file name says which (for example
-`qnet-1.0.0+mc26.2-fabric.jar`). Every file was started as a client and as a dedicated server, passed all of its
+`qnet-1.0.1+mc26.2-fabric.jar`). Every file was started as a client and as a dedicated server, passed all of its
 automated game tests (over 250 on Fabric, over 210 on NeoForge) and ran together with each supported mod that exists for
 its version.
 
