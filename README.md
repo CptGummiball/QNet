@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.1.3-FF4F9A?style=flat-square" alt="Version 1.1.3">
+  <img src="https://img.shields.io/badge/version-1.2.0-FF4F9A?style=flat-square" alt="Version 1.2.0">
   <img src="https://img.shields.io/badge/Fabric-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-DBD0B4?style=flat-square" alt="Fabric 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/NeoForge-1.21.1%20%7C%2026.1.2%20%7C%2026.2%20%7C%2026.3-F16436?style=flat-square" alt="NeoForge 1.21.1, 26.1.2, 26.2, 26.3">
   <img src="https://img.shields.io/badge/requires-Pipster%201.2.0%2B-FFB040?style=flat-square" alt="Requires Pipster 1.2.0 or newer">
@@ -93,7 +93,7 @@ pattern cards, Chemical Reactor, Electrolyzer, Crystallizer and more) and large 
 * the **Chemical Plant** with several process columns,
 * the **Assembly Complex**, a production line of stations: press, robot arms, laser welder, inspection,
 * the **Agricultural Facility**, an indoor farm with planter beds and a harvest bridge, and field machines that farm and
-  fell trees outdoors,
+  fell trees outdoors, and the **Biogas Fermenter** for methane and fertilizer,
 * the **Deep Core** drill, the **Matter Reconstructor**, the **Particle Facility** and the **Quantum Facility**.
 
 Machines take speed and parallel upgrades, plants take plant modules.
@@ -193,6 +193,9 @@ QNet needs Pipster: every cable and pipe of QNet is a Pipster pipe.
   external storage of Refined Storage and the Inventory Connector of Tom's Simple Storage reach it through the Storage
   Interface.
 * **Create and Mekanism** (NeoForge, 1.21.1): QNet's Crusher and Metal Former also run some of their recipes.
+* **Ad Astra** (1.21.1): three QNet machines make its fluids and fuels from QNet's gases, its metals join QNet's ore
+  processing, and fires need air on planets without one.
+* **Energized Power:** two Foundry molds cast its gear and wire.
 * **ComputerCraft (CC: Tweaked), FTB Teams, FTB Chunks, Open Parties and Claims** and permission mods.
 
 Everything except Pipster is optional and switches itself on only when the other mod is installed. Not every mod exists
@@ -214,8 +217,8 @@ which version.
 first; the 1.21.11 build follows later as a separate release. Pipster itself supports 1.21.11 as usual.
 
 There is one file per Minecraft version and loader; the file name says which (for example
-`qnet-1.0.1+mc26.2-fabric.jar`). Every file was started as a client and as a dedicated server, passed all of its
-automated game tests (over 250 on Fabric, over 210 on NeoForge) and ran together with each supported mod that exists for
+`qnet-1.2.0+mc26.2-fabric.jar`). Every file was started as a client and as a dedicated server, passed all of its
+automated game tests (over 280 on Fabric, over 240 on NeoForge) and ran together with each supported mod that exists for
 its version.
 
 **Your version is missing?** Ask for it with a [version request](https://github.com/CptGummiball/QNet/issues/new?template=version_request.yml).
@@ -224,9 +227,9 @@ Requests with a real use (a modpack, a server) help decide which version comes n
 <a id="performance"></a>
 <img src="images/headers/performance.png" alt="Performance" width="100%">
 
-Measured on a dedicated server (Minecraft 1.21.1, Intel i7, Java 21) with 32 formed plants, 10 machines and a Rift
-complex extracting: QNet took **0.6 to 0.8 ms per tick** (95th percentile) on both loaders, out of the 50 ms a tick may
-take. Machines and plants do their work in bounded steps per tick; nothing scans the world.
+Measured on a dedicated server (Intel i7) with 32 formed plants, 10 machines and a Rift complex extracting: QNet took
+**about 1 ms per tick** (95th percentile: 0.97 ms on Minecraft 1.21.1, 1.08 to 1.23 ms on 26.3 and 1.21.11) on both
+loaders, out of the 50 ms a tick may take. Machines and plants do their work in bounded steps per tick; nothing scans the world.
 
 <a id="downloads"></a>
 <img src="images/headers/downloads.png" alt="Downloads" width="100%">
